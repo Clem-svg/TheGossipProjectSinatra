@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <title>Gossip Page</title>
+  </head>
+  <body>
+    <h1>Là on est sur un gros potin !</h1>
+    <p>Voici la page du potin n°<u><%= params['id'] %></u></p>
+    <p>Il a été écrit par <i><%= gossip.author %></i></p>
+    <p>Et voilà ce que ça dit : "<%= gossip.content %>"</p>
+    <p>Alors, happy ?</p>
+
+    <a href="/gossips/<%= params['id']%>/edit/">Tu veux éditer ce potin ?</a>
+
+    <br>
+
+    <a href="/">Plus de potins ?</a>
+
+  </body>
+</html>

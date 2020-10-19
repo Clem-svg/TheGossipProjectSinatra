@@ -9,9 +9,9 @@ Les potins sont conservés dans un fichier .csv (/db)
 So far, on a réussi à aller jusqu'à "Editer un potin" (inclus yyyeeesss)
 
 Pour lancer le programme
-$ git clone https://github.com/Clem-svg/TheGossipProjectSinatra.git
-$ bundle install
-$ shotgun -p 4567
+<br>$ git clone https://github.com/Clem-svg/TheGossipProjectSinatra.git
+<br>$ bundle install
+<br>$ shotgun -p 4567
 
 
 Version de Ruby

@@ -25,9 +25,15 @@ class ApplicationController < Sinatra::Base
   end
 
  # modifier un potin
- get '/gossips/:id/edit/' do
-  erb :edit , locals: {gossip: Gossip.update(params['id'], params['gossip_author'], params['gossip_content'])}
+  get '/gossips/:id/edit/' do
+  erb :edit
   end
+
+  post '/gossips/edit/' do
+    Gossip.update(params['id'].to_i,params["gossip_author"], params["gossip_content"])
+    redirect '/'
+  end
+
 
 
 

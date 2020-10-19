@@ -6,7 +6,7 @@ Programmé par Clémentine Fouqué
 L'app tourne en local grâce à Sinatra
 Les potins sont conservés dans un fichier .csv (/db)
 
-So far, on a réussi à aller jusqu'à "Editer un potin" (non inclus)
+So far, on a réussi à aller jusqu'à "Editer un potin" (inclus yyyeeesss)
 
 Pour lancer le programme
 $ shotgun -p 4567

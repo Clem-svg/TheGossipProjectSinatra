@@ -11,7 +11,11 @@
         <%= gossip.author %><br/>
         <%= gossip.content %></a>
         <br><a href="/gossips/<%= gossips.index(gossip) + 1 %>">Voir la page du potin</a>
+        <a href="/gossips/<%= gossips.index(gossip) + 1 %>/edit/">Editer le potin </a>
+
       </p>
     <% end %>
+
+
 </body>
 </html>
